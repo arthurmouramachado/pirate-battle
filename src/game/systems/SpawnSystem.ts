@@ -1,4 +1,4 @@
-import { Enemy, EnemyType } from "../entities/Enemy";
+import { Enemy, type EnemyType } from "../entities/Enemy";
 import { Texture } from "pixi.js";
 
 interface SpawnTextures {
@@ -14,10 +14,11 @@ interface EnemyHealthTextures {
 
 export class SpawnSystem {
   private elapsed = 0;
+  private spawnInterval: number;
 
-  constructor(
-    private spawnInterval: number,
-  ) {}
+  constructor(spawnInterval: number) {
+    this.spawnInterval = spawnInterval;
+  }
 
   update(deltaMS: number) {
     this.elapsed += deltaMS;
