@@ -10,6 +10,7 @@ import { SpawnSystem } from "../game/systems/SpawnSystem";
 
 export function GameCanvas() {
   const containerRef = useRef<HTMLDivElement>(null);
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const enemies: Enemy[] = [];
 
   useEffect(() => {
@@ -43,6 +44,7 @@ export function GameCanvas() {
 
       input = new InputSystem();
 
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       const spawnSystem = new SpawnSystem(GAME_CONFIG.enemy.spawnInterval);
 
       const playerTexture = await Assets.load("/assets/ships/ship_1.png");
