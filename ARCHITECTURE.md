@@ -1,35 +1,3 @@
-Coloque o `ARCHITECTURE.md` na **raiz do projeto**, no mesmo nível do `README.md` e do `package.json`.
-
-Fica assim:
-
-```text
-pirate-battle/
-├── README.md
-├── ARCHITECTURE.md
-├── package.json
-├── playwright.config.ts
-├── vite.config.ts
-├── tsconfig.json
-├── src/
-├── public/
-└── tests/
-```
-
-Isso é melhor porque o avaliador abre o repositório e já encontra os dois documentos principais logo de cara.
-
-No `README.md`, você já pode deixar uma referência para ele, por exemplo:
-
-```md
-For a more detailed explanation of the project structure and architectural decisions, see:
-
-[ARCHITECTURE.md](./ARCHITECTURE.md)
-```
-
-E agora podemos criar o conteúdo dele.
-
-Use este `ARCHITECTURE.md`:
-
-```md
 # Pirate Battle Architecture
 
 This document describes the main architectural decisions used in Pirate Battle.
