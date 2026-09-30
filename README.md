@@ -186,13 +186,13 @@ The application contains the following screens:
 - Main Menu
 - Game
 - Result
-- Options
+- Option
 - Ranking
 - Match History
 The App.tsx component controls the current application screen.
 
- Options
-The Options screen allows the player to configure:
+ # Option
+The Option screen allows the player to configure:
 - Match duration
 - Volume
 - Difficulty preset
@@ -283,7 +283,6 @@ src/
 │
 ├── components/
 │   ├── GameCanvas.tsx
-│   ├── HUD.tsx
 │   └── TouchControls.tsx
 │
 ├── game/
@@ -312,7 +311,7 @@ src/
 │
 ├── pages/
 │   ├── MainMenu.tsx
-│   ├── Options.tsx
+│   ├── Option.tsx
 │   ├── Result.tsx
 │   ├── Ranking.tsx
 │   └── MatchHistory.tsx
