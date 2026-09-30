@@ -431,3 +431,7 @@ The main focus of the implementation was:
 - Responsive interaction
 - Testing
 - Code organization
+
+For a more detailed explanation of the project structure and architectural decisions, see:
+
+[ARCHITECTURE.md](./ARCHITECTURE.md)
