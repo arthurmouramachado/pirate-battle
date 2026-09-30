@@ -47,7 +47,7 @@ App.tsx
 │   └── TouchControls
 │
 ├── Result
-├── Options
+├── Option
 ├── Ranking
 └── MatchHistory
 ```
@@ -625,7 +625,7 @@ Current E2E coverage includes:
 
 ```text
 Main Menu
-Options
+Option
 Ranking
 Match History
 Game completion
@@ -673,12 +673,10 @@ src/
 ├── api/
 │   ├── api.ts
 │   ├── matchApi.ts
-│   ├── rankingApi.ts
-│   └── types.ts
+│   └──rankingApi.ts
 │
 ├── components/
 │   ├── GameCanvas.tsx
-│   ├── HUD.tsx
 │   └── TouchControls.tsx
 │
 ├── game/
@@ -699,6 +697,7 @@ src/
 │       ├── SpawnSystem.ts
 │       ├── CollisionSystem.ts
 │       └── CombatSystem.ts
+│    └──types.ts
 │
 ├── mocks/
 │   ├── browser.ts
