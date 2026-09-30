@@ -431,6 +431,13 @@ The main focus of the implementation was:
 - Testing
 - Code organization
 
+
+## Live Demo
+
+Play the deployed version here:
+
+https://pirate-battle-kappa.vercel.app/
+
 For a more detailed explanation of the project structure and architectural decisions, see:
 
 [ARCHITECTURE.md](./ARCHITECTURE.md)
