@@ -2,17 +2,13 @@ import {
   defineConfig,
   devices,
 } from "@playwright/test";
-import process from "process";
 
 export default defineConfig({
-  testDir:
-    "./tests",
+  testDir: "./tests",
 
-  fullyParallel:
-    true,
+  fullyParallel: true,
 
-  reporter:
-    "html",
+  reporter: "html",
 
   use: {
     baseURL:
@@ -38,13 +34,10 @@ export default defineConfig({
 
   projects: [
     {
-      name:
-        "chromium",
+      name: "chromium",
 
       use: {
-        ...devices[
-          "Desktop Chrome"
-        ],
+        ...devices["Desktop Chrome"],
       },
     },
   ],
